@@ -8,11 +8,19 @@ be thrown away and a new number will be generated until it matches the unlock co
 locking code 886834 is needed to lock it.
 
 To run this code in the Command Prompt:
-1. git clone https://github.com/rivermaners/CS330-SecurityDevice/tree/master/src
-2.
+1. Make sure you are using java SDK/JDK version 1.8
+2. git clone https://github.com/rivermaners/CS330-SecurityDevice/tree/master/src
+3. cd CS330-SecurityDevice
+4. cd src
+5. dir (this lets you view the files in src)
+6. java -jar "Security Device.jar" (this will run the code)
+7. to view the README or MEMO, type README.txt or MEMO.txt
+8. to view the actual code of the program, type Main.java
+
+When running the code in Command Prompt, it will take much longer since the Command Prompt is slower than other IDEs.
+So be patient :)
 
 The code will then display something like:
-
 []
 [8]
 [8, 8]
