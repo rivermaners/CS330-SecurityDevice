@@ -7,6 +7,8 @@ index and brute force random numbers again. If a number doesn't match the corres
 be thrown away and a new number will be generated until it matches the unlock code. To lock the security device, the
 locking code 886834 is needed to lock it.
 
+To run this code in the Command Prompt, you must first do git
+
 The code will then display something like:
 
 []
