@@ -16,7 +16,9 @@ To run this code in the Command Prompt:
 6. java -jar "Security Device.jar" (this will run the code)
 7. to view the README or MEMO, type README.txt or MEMO.txt
 8. to view the actual code of the program, type Main.java
+9. to view code flow chart, type codeFlowChart.pdf
 
+While typing in the name of the file you would like to open, you can press tab to autofill the name
 When running the code in Command Prompt, it will take much longer since the Command Prompt is slower than other IDEs.
 So be patient :)
 
