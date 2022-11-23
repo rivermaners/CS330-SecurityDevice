@@ -1,0 +1,15 @@
+I have created a program that uses the last 5 digits of my student ID number, 88683 to lock and unlock an imaginary
+security device. To unlock this device, the code is my student ID number with the number 1 at the end (886831) and to
+lock it, the code is my student ID number with the number 4 at the end (886834).
+
+I have programed this so it randomly generates a number 0-9, mimicking a keypad, and inputs it into an array list
+starting at index 0 and stopping at index 5. If the random number matches the unlock code in the first index, it will
+accept the number and move onto the next index. If the random number generated doesn't match the index of the unlock
+code, then it will throw that number away and attempt a new number until it gets the correct one. The random number
+generator will not move onto the next index until it has matched the number of its current index it is working on.
+I used a series of for loops and if statements to add or remove each randomly generated number to the array list.
+
+When I first attempted this program, I did it in Python but realized how slow it was. I then switched to Java where I
+found it to be much faster than Python in terms of run time. When I ran the code 50 times, it took approximately
+02:29.08 to unlock the imaginary device 50 times with an average of 2.92288034E7 symbols used to unlock the device. For
+a singular run of the code, it took about 2.61 seconds to unlock the device.
