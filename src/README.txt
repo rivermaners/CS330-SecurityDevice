@@ -7,16 +7,23 @@ index and brute force random numbers again. If a number doesn't match the corres
 be thrown away and a new number will be generated until it matches the unlock code. To lock the security device, the
 locking code 886834 is needed to lock it.
 
-To run this code in the Command Prompt:
+To BUILD and run this code in the Command Prompt:
 1. Make sure you are using java SDK/JDK version 1.8
 2. git clone https://github.com/rivermaners/CS330-SecurityDevice/tree/master/src
 3. cd CS330-SecurityDevice
 4. cd src
-5. dir (this lets you view the files in src)
-6. java -jar "Security Device.jar" (this will run the code)
-7. to view the README or MEMO, type README.txt or MEMO.txt
-8. to view the actual code of the program, type Main.java
-9. to view code flow chart, type codeFlowChart.pdf
+5. locate your jdk version 1.8 in your files and go to the bin. Copy the file path of the folder.
+6. path [paste the copied file path];%path% (this makes the jar file build in the correct java version)
+    example: path C:\Program Files\Java\jdk1.8.0_202\bin;%path%
+7. javac Main.java
+8. echo Main-Class: Main >manifest.txt (builds manifest)
+9. jar cvfm Main.jar manifest.txt Main.class (builds jar file)
+10. java -jar Main.jar (this will execute the newly built jar file)
+11. to view the README or MEMO, type README.txt or MEMO.txt
+12. to view the actual code of the program, type Main.java
+13. to view code flow chart, type codeFlowChart.pdf
+
+To view files in src, type dir
 
 While typing in the name of the file you would like to open, you can press tab to autofill the name
 When running the code in Command Prompt, it will take much longer since the Command Prompt is slower than other IDEs.
